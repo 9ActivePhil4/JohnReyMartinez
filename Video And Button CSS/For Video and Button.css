@@ -1,0 +1,64 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            overflow: hidden;
+        }
+        #background-video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -1;
+        }
+        @media (max-width: 768px) {
+
+            video {
+                width: 100
+                height auto;
+            }
+        }
+        
+        
+        #logo {
+            width: 250px;
+            top: 40%;
+            left: 50%;
+            height: auto;
+            margin: 50px auto;
+            z-index: 1; 
+            min-width: auto;
+            min-height: auto;
+        }
+        #social-buttons {
+            margin: 125px auto;
+            z-index: 1;
+            
+        }
+        .social-button {
+            display: inline-block;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        .social-button span {
+            font-family: Arial, sans-serif;
+            color: #ffffff;
+            font-size: 15px;
+            
+        }
+
+        .social-button img {
+            transition: opacity 0.26s ease;
+        }
+        
+        .social-button:hover img {
+            opacity: 0;
+        
+        }
+        
