@@ -53,12 +53,23 @@ body {
             
         }
 
-        .social-button img {
-            transition: opacity 0.26s ease;
+          @keyframes jump {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+            100% {
+                transform: translateY(0);
+            }
         }
         
         .social-button:hover img {
-            opacity: 0;
-        
+            animation: jump 0.5s ease; 
         }
         
+        
+        .social-button:hover img {
+            transform: scale(1.2);
+        }
