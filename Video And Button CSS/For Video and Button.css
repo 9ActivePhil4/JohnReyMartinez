@@ -26,14 +26,11 @@ body {
         
         
         #logo {
-            width: 250px;
-            top: 40%;
-            left: 50%;
+            width: 200px;
             height: auto;
-            margin: 50px auto;
+            margin: 125px auto;
             z-index: 1; 
-            min-width: auto;
-            min-height: auto;
+            
         }
         #social-buttons {
             margin: 125px auto;
@@ -42,7 +39,7 @@ body {
         }
         .social-button {
             display: inline-block;
-            margin: 0 15px;
+            margin: 0 10px;
             text-decoration: none;
         }
 
@@ -53,7 +50,7 @@ body {
             
         }
 
-          @keyframes jump {
+        @keyframes jump {
             0% {
                 transform: translateY(0);
             }
@@ -73,3 +70,4 @@ body {
         .social-button:hover img {
             transform: scale(1.2);
         }
+        
